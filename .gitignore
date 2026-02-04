@@ -1,0 +1,19 @@
+# Datos grandes
+*.nc
+*.grib
+*.hdf5
+*.mat
+
+# Archivos temporales
+*.pyc
+__pycache__/
+*.log
+*.out
+
+# Configuraciones locales
+.env
+config.local.*
+
+# Otros
+.DS_Store
+Thumbs.db

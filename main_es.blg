@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main_es.aux
+A level-1 auxiliary file: capitulos_es/01_introduccion.aux
+A level-1 auxiliary file: capitulos_es/02_marco_teorico.aux
+A level-1 auxiliary file: capitulos_es/03_datos_metodo.aux
+The style file: apalike.bst
+Database file #1: referencias.bib
+Warning--entry type for "hersbach_era5_2023b" isn't style-file defined
+--line 1 of file referencias.bib
+Warning--I didn't find a database entry for "bjerknes1922life"
+Warning--I didn't find a database entry for "shapiro1990life"
+Warning--I didn't find a database entry for "clark2005sting"
+Warning--I didn't find a database entry for "zscheischler2018future"
+Warning--I didn't find a database entry for "hannachi2007empirical"
+You've used 40 entries,
+            1935 wiz_defined-function locations,
+            722 strings with 13044 characters,
+and the built_in function-call counts, 18684 in all, are:
+= -- 1808
+> -- 931
+< -- 16
++ -- 356
+- -- 326
+* -- 1757
+:= -- 3238
+add.period$ -- 121
+call.type$ -- 40
+change.case$ -- 363
+chr.to.int$ -- 38
+cite$ -- 40
+duplicate$ -- 572
+empty$ -- 1210
+format.name$ -- 386
+if$ -- 3558
+int.to.chr$ -- 3
+int.to.str$ -- 0
+missing$ -- 39
+newline$ -- 203
+num.names$ -- 120
+pop$ -- 281
+preamble$ -- 1
+purify$ -- 363
+quote$ -- 0
+skip$ -- 425
+stack$ -- 0
+substring$ -- 1525
+swap$ -- 53
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 238
+warning$ -- 0
+while$ -- 148
+width$ -- 0
+write$ -- 523
+(There were 6 warnings)

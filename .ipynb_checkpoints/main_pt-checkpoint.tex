@@ -1,0 +1,24 @@
+\documentclass[12pt, a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% CLAVE: Idioma portugués (Brasil) para "Capítulo", "Resumo", etc.
+\usepackage[brazilian]{babel} 
+
+\usepackage{graphicx}
+\graphicspath{ {./figuras/} } % Comparte la misma carpeta de figuras
+
+\title{Caracterização da precipitação e do vento na climatologia associada a ciclones}
+\author{Seu Nome}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+% CLAVE: Buscar en la carpeta _pt
+\include{capitulos_pt/01_introduccion}
+\include{capitulos_pt/02_marco_teorico}  % <-- Agregaremos este hoy
+
+\end{document}

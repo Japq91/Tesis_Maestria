@@ -1,0 +1,54 @@
+\documentclass[12pt, a4paper]{report}
+
+% --- IDIOMA Y CODIFICACIÓN ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish, es-tabla, es-nodecimaldot]{babel}
+
+
+% --- CONFIGURACIÓN DE TÍTULOS DE CAPÍTULO ---
+\usepackage{titlesec}
+\titleformat{\chapter}[display]  % Formato para capítulos
+    {\normalfont\huge\bfseries\centering}  % Estilo: centrado, grande, negrita
+    {\chaptertitlename\ \thechapter}      % "Capítulo 1"
+    {15pt}                                % Espacio entre número y título
+    {\Huge}                               % Tamaño del título del capítulo
+
+\titlespacing*{\chapter}                  % ¡AJUSTA AQUÍ!
+    {0pt}                                 % Indentación izquierda
+    {20pt}                                % ↓ ESPACIO ANTES (más pequeño = más arriba)
+    {15pt}                                % Espacio después
+
+% --- PAQUETES DE CIENCIA ---
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{left=3cm,right=2.5cm,top=3cm,bottom=2.5cm}
+
+% En main_es.tex
+\usepackage[round]{natbib}
+%\usepackage{doi}
+
+%\renewcommand{\doi}[1]{\href{https://doi.org/#1}{doi:#1}}  % Para hacer clic en PDF
+% --- RUTAS ---
+\graphicspath{ {./figuras/} }
+
+% --- DATOS ---
+\title{Caracterización de la precipitación y el viento en la climatología asociada a ciclones}
+\author{Tu Nombre}
+\date{\today}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+% --- CAPÍTULOS (ESPAÑOL) ---
+\include{capitulos_es/01_introduccion}
+\include{capitulos_es/02_marco_teorico}
+\include{capitulos_es/03_datos_metodo}
+
+% --- BIBLIOGRAFÍA ---
+\bibliographystyle{apalike}
+\bibliography{referencias}
+
+\end{document}

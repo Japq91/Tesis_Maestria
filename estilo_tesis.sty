@@ -1,0 +1,77 @@
+% estilo_tesis.sty
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{estilo_tesis}[2026/01/28 Estilo de tesis]
+
+% =========================
+% Tipografia y calidad
+% =========================
+\RequirePackage[T1]{fontenc}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage{lmodern}
+\RequirePackage{microtype}
+
+% =========================
+% Geometria y espaciado
+% =========================
+\RequirePackage{geometry}
+\geometry{left=3cm,right=2.5cm,top=3cm,bottom=2.5cm}
+
+\RequirePackage{setspace}
+\onehalfspacing
+
+\RequirePackage{indentfirst}
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{0pt}
+
+% =========================
+% Matematicas y graficos
+% =========================
+\RequirePackage{amsmath,amssymb}
+\RequirePackage{graphicx}
+\RequirePackage{float}
+
+% =========================
+% Tablas y unidades
+% =========================
+\RequirePackage{booktabs}
+\RequirePackage{siunitx}
+
+% =========================
+% Figuras: captions
+% =========================
+\RequirePackage[font=small,labelfont=bf]{caption}
+
+% =========================
+% Encabezados y pies
+% =========================
+\RequirePackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter.\ #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1}}
+\fancyhead[L]{\nouppercase{\leftmark}}
+\fancyhead[R]{}
+\fancyfoot[C]{\thepage}
+\setlength{\headheight}{15.5pt}
+
+% =========================
+% Titulos de capitulo
+% =========================
+\RequirePackage{titlesec}
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\centering}
+  {\chaptertitlename\ \thechapter}
+  {12pt}
+  {\Huge}
+
+\titlespacing*{\chapter}{0pt}{18pt}{14pt}
+
+% =========================
+% Bibliografía (NATBIB) - CARGAR AQUÍ
+% =========================
+\RequirePackage[round]{natbib}
+
+% Evitar viudas/huérfanas
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000

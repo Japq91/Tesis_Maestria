@@ -1,0 +1,31 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}Introducción}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Objetivos del Proyecto de Investigación}{6}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Objetivo General}{6}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Objetivos Específicos}{6}{subsection.1.1.2}%
+\contentsline {chapter}{\numberline {2}Marco Teórico}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Fundamentos físicos de los sistemas extratropicales}{8}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Definición termodinámica y Espacio de Fase}{8}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Modelos de estructura y asimetría del viento}{8}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Mecanismos forzantes de la ciclogénesis regional}{9}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Ciclogénesis de Sotavento (Forzante Orográfico)}{9}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Ciclogénesis Diabática (Forzante Térmico)}{9}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Fundamentos del análisis de eventos compuestos y espacial}{9}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Teoría de Eventos Compuestos}{9}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Estimación de Densidad y Variabilidad Espacial}{10}{subsection.2.3.2}%
+\contentsline {chapter}{\numberline {3}Metodología}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Diseño general del estudio}{11}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Datos del Reanálisis ERA5}{11}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Variables meteorológicas}{12}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}Base de datos de ciclones}{12}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Trayectorias y detección}{12}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Fases del ciclo de vida}{13}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Selección de ciclos de vida canónicos}{13}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Procesamiento}{14}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Estratificación por regiones de ciclogénesis}{14}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Técnicas estadísticas de caracterización}{15}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Extracción de máximos y análisis de histogramas}{15}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Estimación de densidad de kernel (KDE) de máximos}{15}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Análisis de funciones ortogonales empíricas (EOF) univariado}{16}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}EOF combinado (multivariado) precipitación--viento}{16}{subsection.3.6.4}%
+\contentsline {section}{\numberline {3.7}Análisis de sensibilidad: subconjunto de ciclones intensos}{17}{section.3.7}%

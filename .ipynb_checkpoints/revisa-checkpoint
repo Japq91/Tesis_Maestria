@@ -1,0 +1,849 @@
+pdflatex main_es.tex
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main_es.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(/home/japq/texlive/2025/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
+(/home/japq/texlive/2025/texmf-dist/tex/latex/base/size12.clo))
+(/home/japq/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
+(/home/japq/texlive/2025/texmf-dist/tex/generic/babel/txtbabel.def)
+(/home/japq/texlive/2025/texmf-dist/tex/generic/babel/locale/es/babel-spanish.t
+ex) (/home/japq/texlive/2025/texmf-dist/tex/generic/babel-spanish/spanish.ldf))
+(./estilo_tesis.sty
+(/home/japq/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/lm/lmodern.sty)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
+(/home/japq/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/home/japq/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+(/home/japq/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/home/japq/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/home/japq/texlive/2025/texmf-dist/tex/latex/setspace/setspace.sty)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/tools/indentfirst.sty)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/home/japq/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/home/japq/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/home/japq/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/home/japq/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/home/japq/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/home/japq/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/home/japq/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/home/japq/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/home/japq/texlive/2025/texmf-dist/tex/latex/float/float.sty)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/siunitx/siunitx.sty
+(/home/japq/texlive/2025/texmf-dist/tex/latex/translations/translations.sty
+(/home/japq/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/home/japq/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(/home/japq/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)))
+(/home/japq/texlive/2025/texmf-dist/tex/latex/tools/array.sty))
+(/home/japq/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+(/home/japq/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty))
+(/home/japq/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/home/japq/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/home/japq/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/home/japq/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(/home/japq/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty)
+(/home/japq/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/home/japq/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/home/japq/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/home/japq/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(/home/japq/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(/home/japq/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/home/japq/texlive/2025/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/home/japq/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/home/japq/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/home/japq/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
+(/home/japq/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def)))
+(/home/japq/texlive/2025/texmf-dist/tex/latex/natbib/natbib.sty)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+(/home/japq/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/home/japq/texlive/2025/texmf-dist/tex/latex/lm/t1lmr.fd)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+No file main_es.aux.
+(/home/japq/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/home/japq/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/home/japq/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/home/japq/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/home/japq/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-d
+ictionary-spanish.trsl)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/home/japq/texlive/2025/texmf-dist/tex/latex/microtype/mt-msb.cfg) [1{/home/ja
+pq/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/home/japq/texliv
+e/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
+No file main_es.toc.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.22 \include{capitulos_es/01_introduccion}
+                                            [1]
+(./capitulos_es/01_introduccion.tex
+Cap\'{\i }tulo 1.
+
+Package natbib Warning: Citation `masson2022tendencias' on page 2 undefined on 
+input line 4.
+
+
+Package natbib Warning: Citation `PadilhaReinke2026Characterization' on page 2 
+undefined on input line 4.
+
+
+Package natbib Warning: Citation `reboita2018extratropical' on page 2 undefined
+ on input line 4.
+
+
+Package natbib Warning: Citation `sinclair2023relationship' on page 2 undefined
+ on input line 4.
+
+
+Package natbib Warning: Citation `gramcianinov2023impact' on page 2 undefined o
+n input line 4.
+
+
+Package natbib Warning: Citation `simmonds2000mean' on page 2 undefined on inpu
+t line 7.
+
+
+Package natbib Warning: Citation `hoskins2005new' on page 2 undefined on input 
+line 7.
+
+
+Package natbib Warning: Citation `simmonds1999southern' on page 2 undefined on 
+input line 7.
+
+
+Package natbib Warning: Citation `gan1991surface' on page 2 undefined on input 
+line 10.
+
+
+Package natbib Warning: Citation `inatsu2004zonal' on page 2 undefined on input
+ line 10.
+
+[2]
+
+Package natbib Warning: Citation `reboita2010south' on page 3 undefined on inpu
+t line 12.
+
+
+Package natbib Warning: Citation `dejesus2021multimodel' on page 3 undefined on
+ input line 12.
+
+
+Package natbib Warning: Citation `Reboita2026Meteorology' on page 3 undefined o
+n input line 14.
+
+
+Package natbib Warning: Citation `dejesus2021multimodel' on page 3 undefined on
+ input line 15.
+
+
+Package natbib Warning: Citation `mendes2010climatology' on page 3 undefined on
+ input line 17.
+
+
+Package natbib Warning: Citation `vera2002cold' on page 3 undefined on input li
+ne 21.
+
+
+Package natbib Warning: Citation `PadilhaReinke2026Characterization' on page 3 
+undefined on input line 21.
+
+
+Package natbib Warning: Citation `dejesus2021multimodel' on page 3 undefined on
+ input line 22.
+
+
+Package natbib Warning: Citation `Reboita2026Meteorology' on page 3 undefined o
+n input line 23.
+
+
+Package natbib Warning: Citation `machado2020influence' on page 3 undefined on 
+input line 23.
+
+
+Package natbib Warning: Citation `vera2002cold' on page 3 undefined on input li
+ne 24.
+
+[3]
+
+Package natbib Warning: Citation `sinclair2023relationship' on page 4 undefined
+ on input line 28.
+
+
+Package natbib Warning: Citation `dejesus2021multimodel' on page 4 undefined on
+ input line 29.
+
+
+Package natbib Warning: Citation `gramcianinov2023impact' on page 4 undefined o
+n input line 30.
+
+
+Package natbib Warning: Citation `PadilhaReinke2026Characterization' on page 4 
+undefined on input line 32.
+
+
+Package natbib Warning: Citation `hart2003cyclone' on page 4 undefined on input
+ line 35.
+
+
+Package natbib Warning: Citation `reboita2022from' on page 4 undefined on input
+ line 35.
+
+
+Package natbib Warning: Citation `coutodesouza2024new' on page 4 undefined on i
+nput line 35.
+
+
+Package natbib Warning: Citation `han2025syclops' on page 4 undefined on input 
+line 35.
+
+[4]
+
+Package natbib Warning: Citation `Graf2017' on page 5 undefined on input line 3
+8.
+
+
+Package natbib Warning: Citation `eisenstein2023objective' on page 5 undefined 
+on input line 40.
+
+
+Package natbib Warning: Citation `gramcianinov2023impact' on page 5 undefined o
+n input line 41.
+
+
+Package natbib Warning: Citation `Bitencourt2010Relating' on page 5 undefined o
+n input line 45.
+
+
+Package natbib Warning: Citation `liang2018multivariate' on page 5 undefined on
+ input line 47.
+
+
+Package natbib Warning: Citation `hersbach2020era5' on page 5 undefined on inpu
+t line 57.
+
+
+Package natbib Warning: Citation `Gramcianinov2020Analysis' on page 5 undefined
+ on input line 57.
+
+
+Package natbib Warning: Citation `padilhareinke2024objective' on page 5 undefin
+ed on input line 57.
+
+
+Package natbib Warning: Citation `dejesus2021multimodel' on page 5 undefined on
+ input line 58.
+
+
+Package natbib Warning: Citation `gramcianinov2023impact' on page 5 undefined o
+n input line 59.
+
+[5{/home/japq/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+[6]) [7] (./capitulos_es/02_marco_teorico.tex
+Cap\'{\i }tulo 2.
+
+Package natbib Warning: Citation `sinclair1997objective' on page 8 undefined on
+ input line 6.
+
+
+Package natbib Warning: Citation `simmonds2000mean' on page 8 undefined on inpu
+t line 6.
+
+
+Package natbib Warning: Citation `evans2012climatology' on page 8 undefined on 
+input line 7.
+
+
+Package natbib Warning: Citation `hoskins2005new' on page 8 undefined on input 
+line 10.
+
+
+Package natbib Warning: Citation `inatsu2004zonal' on page 8 undefined on input
+ line 10.
+
+
+Package natbib Warning: Citation `simmonds2000variability' on page 8 undefined 
+on input line 10.
+
+
+Package natbib Warning: Citation `gan1991surface' on page 8 undefined on input 
+line 16.
+
+
+Package natbib Warning: Citation `crespo2020potential' on page 8 undefined on i
+nput line 16.
+
+[8]
+
+Package natbib Warning: Citation `reboita2010south' on page 9 undefined on inpu
+t line 20.
+
+
+Package natbib Warning: Citation `mendes2010climatology' on page 9 undefined on
+ input line 20.
+
+
+Package natbib Warning: Citation `dalanhese2023new' on page 9 undefined on inpu
+t line 20.
+
+
+Package natbib Warning: Citation `evans2012climatology' on page 9 undefined on 
+input line 21.
+
+
+Package natbib Warning: Citation `gramcianinov2019properties' on page 9 undefin
+ed on input line 24.
+
+
+Package natbib Warning: Citation `vera2002cold' on page 9 undefined on input li
+ne 24.
+
+
+Package natbib Warning: Citation `sinclair1997objective' on page 9 undefined on
+ input line 30.
+
+
+Package natbib Warning: Citation `hodges2011comparison' on page 9 undefined on 
+input line 30.
+
+
+Package natbib Warning: Citation `simmonds2000size' on page 9 undefined on inpu
+t line 34.
+
+
+Package natbib Warning: Citation `sinclair1997objective' on page 9 undefined on
+ input line 34.
+
+[9]
+
+Package natbib Warning: Citation `hodges2011comparison' on page 10 undefined on
+ input line 38.
+
+
+Package natbib Warning: Citation `dalanhese2023new' on page 10 undefined on inp
+ut line 38.
+
+
+Package natbib Warning: Citation `simmonds2000size' on page 10 undefined on inp
+ut line 44.
+
+
+Package natbib Warning: Citation `coutodesouza2024new' on page 10 undefined on 
+input line 48.
+
+[10]
+
+Package natbib Warning: Citation `coutodesouza2024new' on page 11 undefined on 
+input line 52.
+
+
+Package natbib Warning: Citation `gramcianinov2019properties' on page 11 undefi
+ned on input line 58.
+
+
+Package natbib Warning: Citation `reboita2018extratropical' on page 11 undefine
+d on input line 58.
+
+
+Package natbib Warning: Citation `sinclair2023relationship' on page 11 undefine
+d on input line 62.
+
+
+Package natbib Warning: Citation `PadilhaReinke2026Characterization' on page 11
+ undefined on input line 62.
+
+
+Package natbib Warning: Citation `dalanhese2023new' on page 11 undefined on inp
+ut line 66.
+
+
+Package natbib Warning: Citation `coutodesouza2024new' on page 11 undefined on 
+input line 66.
+
+
+Package natbib Warning: Citation `evans2012climatology' on page 11 undefined on
+ input line 67.
+
+[11]
+
+Package natbib Warning: Citation `corner2025classification' on page 12 undefine
+d on input line 77.
+
+
+Package natbib Warning: Citation `liang2018multivariate' on page 12 undefined o
+n input line 81.
+
+
+Package natbib Warning: Citation `liang2018multivariate' on page 12 undefined o
+n input line 84.
+
+
+Package natbib Warning: Citation `coutodesouza2024new' on page 12 undefined on 
+input line 91.
+
+
+Package natbib Warning: Citation `priestley2022improved' on page 12 undefined o
+n input line 95.
+
+
+Package natbib Warning: Citation `han2025syclops' on page 12 undefined on input
+ line 99.
+
+) [12] [13] (./capitulos_es/03_datos_metodo.tex
+Cap\'{\i }tulo 3.
+
+Package natbib Warning: Citation `gan1991surface' on page 14 undefined on input
+ line 5.
+
+
+Package natbib Warning: Citation `reboita2010cyclones' on page 14 undefined on 
+input line 5.
+
+
+Package natbib Warning: Citation `gramcianinov2019properties' on page 14 undefi
+ned on input line 5.
+
+
+Package natbib Warning: Citation `crespo2020potential' on page 14 undefined on 
+input line 5.
+
+
+Package natbib Warning: Citation `hoskins2005new' on page 14 undefined on input
+ line 5.
+
+
+Package natbib Warning: Citation `inatsu2004zonal' on page 14 undefined on inpu
+t line 5.
+
+
+Package natbib Warning: Citation `sinclair1994objective' on page 14 undefined o
+n input line 7.
+
+
+Package natbib Warning: Citation `sinclair1995climatology' on page 14 undefined
+ on input line 7.
+
+
+Package natbib Warning: Citation `sinclair1997objective' on page 14 undefined o
+n input line 7.
+
+
+Package natbib Warning: Citation `simmonds2000mean' on page 14 undefined on inp
+ut line 7.
+
+
+Package natbib Warning: Citation `hodges2011comparison' on page 14 undefined on
+ input line 7.
+
+
+Package natbib Warning: Citation `dalanhese2023new' on page 14 undefined on inp
+ut line 7.
+
+
+Package natbib Warning: Citation `coutodesouza2024new' on page 14 undefined on 
+input line 7.
+
+
+Package natbib Warning: Citation `hersbach2020era5' on page 14 undefined on inp
+ut line 13.
+
+
+Package natbib Warning: Citation `hodges2011comparison' on page 14 undefined on
+ input line 13.
+
+
+Package natbib Warning: Citation `dalanhese2023new' on page 14 undefined on inp
+ut line 13.
+
+[14]
+
+Package natbib Warning: Citation `hodges2011comparison' on page 15 undefined on
+ input line 15.
+
+
+Package natbib Warning: Citation `hodges2011comparison' on page 15 undefined on
+ input line 17.
+
+
+Package natbib Warning: Citation `dalanhese2023new' on page 15 undefined on inp
+ut line 17.
+
+
+Package natbib Warning: Citation `reboita2010cyclones' on page 15 undefined on 
+input line 21.
+
+
+Package natbib Warning: Citation `gramcianinov2019properties' on page 15 undefi
+ned on input line 21.
+
+
+Package natbib Warning: Citation `gramcianinov2020analysis' on page 15 undefine
+d on input line 21.
+
+
+Package natbib Warning: Citation `dejesus2021multimodel' on page 15 undefined o
+n input line 21.
+
+
+Package natbib Warning: Citation `coutodesouza2024new' on page 15 undefined on 
+input line 21.
+
+
+Package natbib Warning: Citation `Bitencourt2010Relating' on page 15 undefined 
+on input line 23.
+
+
+Package natbib Warning: Citation `dejesus2021multimodel' on page 15 undefined o
+n input line 23.
+
+
+Package natbib Warning: Citation `gramcianinov2019properties' on page 15 undefi
+ned on input line 23.
+
+
+Package natbib Warning: Citation `gramcianinov2019properties' on page 15 undefi
+ned on input line 25.
+
+
+Package natbib Warning: Citation `crespo2020potential' on page 15 undefined on 
+input line 25.
+
+
+Package natbib Warning: Citation `hoskins2005new' on page 15 undefined on input
+ line 25.
+
+
+Package natbib Warning: Citation `inatsu2004zonal' on page 15 undefined on inpu
+t line 25.
+
+[15]
+
+Package natbib Warning: Citation `sinclair1997objective' on page 16 undefined o
+n input line 29.
+
+
+Package natbib Warning: Citation `sinclair1994objective' on page 16 undefined o
+n input line 35.
+
+
+Package natbib Warning: Citation `sinclair1995climatology' on page 16 undefined
+ on input line 35.
+
+
+Package natbib Warning: Citation `sinclair1997objective' on page 16 undefined o
+n input line 35.
+
+
+Package natbib Warning: Citation `coutodesouza2024new' on page 16 undefined on 
+input line 35.
+
+
+Package natbib Warning: Citation `gramcianinov2020analysis' on page 16 undefine
+d on input line 35.
+
+
+Package natbib Warning: Citation `hodges2011comparison' on page 16 undefined on
+ input line 41.
+
+
+Package natbib Warning: Citation `hoskins2005new' on page 16 undefined on input
+ line 41.
+
+
+Package natbib Warning: Citation `inatsu2004zonal' on page 16 undefined on inpu
+t line 41.
+
+[16]
+
+Package natbib Warning: Citation `sinclair1997objective' on page 17 undefined o
+n input line 45.
+
+
+Package natbib Warning: Citation `hodges2011comparison' on page 17 undefined on
+ input line 45.
+
+
+Package natbib Warning: Citation `sinclair1997objective' on page 17 undefined o
+n input line 47.
+
+
+Package natbib Warning: Citation `hodges2011comparison' on page 17 undefined on
+ input line 47.
+
+
+Package natbib Warning: Citation `sinclair2023relationship' on page 17 undefine
+d on input line 47.
+
+
+Package natbib Warning: Citation `gramcianinov2023impact' on page 17 undefined 
+on input line 47.
+
+
+Package natbib Warning: Citation `coutodesouza2024new' on page 17 undefined on 
+input line 53.
+
+[17]
+
+Package natbib Warning: Citation `coutodesouza2024new' on page 18 undefined on 
+input line 57.
+
+
+Package natbib Warning: Citation `coutodesouza2024new' on page 18 undefined on 
+input line 57.
+
+
+Package natbib Warning: Citation `gramcianinov2024early' on page 18 undefined o
+n input line 57.
+
+
+Package natbib Warning: Citation `coutodesouza2024new' on page 18 undefined on 
+input line 59.
+
+
+Package natbib Warning: Citation `gan1991surface' on page 18 undefined on input
+ line 65.
+
+
+Package natbib Warning: Citation `reboita2010cyclones' on page 18 undefined on 
+input line 65.
+
+
+Package natbib Warning: Citation `gramcianinov2019properties' on page 18 undefi
+ned on input line 65.
+
+
+Package natbib Warning: Citation `crespo2020potential' on page 18 undefined on 
+input line 65.
+
+
+Package natbib Warning: Citation `hoskins2005new' on page 18 undefined on input
+ line 65.
+
+
+Package natbib Warning: Citation `inatsu2004zonal' on page 18 undefined on inpu
+t line 65.
+
+
+Package natbib Warning: Citation `dejesus2021multimodel' on page 18 undefined o
+n input line 67.
+
+
+Package natbib Warning: Citation `gramcianinov2019properties' on page 18 undefi
+ned on input line 67.
+
+
+Package natbib Warning: Citation `coutodesouza2024new' on page 18 undefined on 
+input line 67.
+
+
+Package natbib Warning: Citation `simmonds2000size' on page 18 undefined on inp
+ut line 71.
+
+
+Package natbib Warning: Citation `coutodesouza2024new' on page 18 undefined on 
+input line 71.
+
+[18]
+
+Package natbib Warning: Citation `gramcianinov2019properties' on page 19 undefi
+ned on input line 79.
+
+
+Package natbib Warning: Citation `reboita2010cyclones' on page 19 undefined on 
+input line 79.
+
+
+Package natbib Warning: Citation `Bitencourt2010Relating' on page 19 undefined 
+on input line 79.
+
+
+Package natbib Warning: Citation `coutodesouza2024new' on page 19 undefined on 
+input line 79.
+
+
+Package natbib Warning: Citation `simmonds2000size' on page 19 undefined on inp
+ut line 79.
+
+
+Package natbib Warning: Citation `andrade2024composite' on page 19 undefined on
+ input line 85.
+
+
+Package natbib Warning: Citation `coutodesouza2024new' on page 19 undefined on 
+input line 85.
+
+
+Package natbib Warning: Citation `andrade2024composite' on page 19 undefined on
+ input line 87.
+
+
+Package natbib Warning: Citation `coutodesouza2024new' on page 19 undefined on 
+input line 87.
+
+[19]
+
+Package natbib Warning: Citation `sinclair2023relationship' on page 20 undefine
+d on input line 91.
+
+
+Package natbib Warning: Citation `gramcianinov2023impact' on page 20 undefined 
+on input line 91.
+
+
+Package natbib Warning: Citation `Bitencourt2010Relating' on page 20 undefined 
+on input line 93.
+
+
+Package natbib Warning: Citation `sinclair2023relationship' on page 20 undefine
+d on input line 93.
+
+
+Package natbib Warning: Citation `sinclair2023relationship' on page 20 undefine
+d on input line 95.
+
+
+Package natbib Warning: Citation `gramcianinov2023impact' on page 20 undefined 
+on input line 95.
+
+
+Package natbib Warning: Citation `coutodesouza2024new' on page 20 undefined on 
+input line 95.
+
+
+Package natbib Warning: Citation `sinclair1997objective' on page 20 undefined o
+n input line 99.
+
+
+Package natbib Warning: Citation `dalanhese2023new' on page 20 undefined on inp
+ut line 99.
+
+
+Package natbib Warning: Citation `hodges2011comparison' on page 20 undefined on
+ input line 99.
+
+
+Package natbib Warning: Citation `hoskins2005new' on page 20 undefined on input
+ line 101.
+
+
+Package natbib Warning: Citation `inatsu2004zonal' on page 20 undefined on inpu
+t line 101.
+
+
+Package natbib Warning: Citation `gan1991surface' on page 20 undefined on input
+ line 101.
+
+
+Package natbib Warning: Citation `reboita2010cyclones' on page 20 undefined on 
+input line 101.
+
+
+Package natbib Warning: Citation `crespo2020potential' on page 20 undefined on 
+input line 101.
+
+[20]
+
+Package natbib Warning: Citation `hersbach2020era5' on page 21 undefined on inp
+ut line 105.
+
+
+Package natbib Warning: Citation `sinclair1997objective' on page 21 undefined o
+n input line 105.
+
+
+Package natbib Warning: Citation `hodges2011comparison' on page 21 undefined on
+ input line 105.
+
+
+Package natbib Warning: Citation `coutodesouza2024new' on page 21 undefined on 
+input line 105.
+
+
+Package natbib Warning: Citation `dejesus2021multimodel' on page 21 undefined o
+n input line 105.
+
+
+Package natbib Warning: Citation `gramcianinov2019properties' on page 21 undefi
+ned on input line 105.
+
+
+Package natbib Warning: Citation `simmonds2000size' on page 21 undefined on inp
+ut line 105.
+
+
+Package natbib Warning: Citation `andrade2024composite' on page 21 undefined on
+ input line 105.
+
+
+Package natbib Warning: Citation `sinclair2023relationship' on page 21 undefine
+d on input line 105.
+
+
+Package natbib Warning: Citation `gramcianinov2023impact' on page 21 undefined 
+on input line 105.
+
+) [21]
+No file main_es.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+(./main_es.aux (./capitulos_es/01_introduccion.aux)
+(./capitulos_es/02_marco_teorico.aux) (./capitulos_es/03_datos_metodo.aux))
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)</home/japq/texlive/2025/te
+xmf-dist/fonts/type1/public/lm/lmbx12.pfb></home/japq/texlive/2025/texmf-dist/f
+onts/type1/public/lm/lmr12.pfb></home/japq/texlive/2025/texmf-dist/fonts/type1/
+public/lm/lmr17.pfb></home/japq/texlive/2025/texmf-dist/fonts/type1/public/lm/l
+mri12.pfb></home/japq/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+
+Output written on main_es.pdf (22 pages, 167294 bytes).
+Transcript written on main_es.log.
+bibtex main_es
+This is BibTeX, Version 0.99d (TeX Live 2025)
+The top-level auxiliary file: main_es.aux
+Case mismatch error between cite keys gramcianinov2020analysis and Gramcianinov2020Analysis
+---line 19 of file capitulos_es/03_datos_metodo.aux
+ : \citation{reboita2010cyclones,gramcianinov2019properties,gramcianinov2020analysis
+ :                                                                                  ,dejesus2021multimodel,coutodesouza2024new}
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys gramcianinov2020analysis and Gramcianinov2020Analysis
+---line 26 of file capitulos_es/03_datos_metodo.aux
+ : \citation{sinclair1994objective,sinclair1995climatology,sinclair1997objective,coutodesouza2024new,gramcianinov2020analysis
+ :                                                                                                                           }
+I'm skipping whatever remains of this command
+The style file: apalike.bst
+Database file #1: referencias.bib
+(There were 2 error messages)

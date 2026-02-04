@@ -1,0 +1,36 @@
+\documentclass[12pt, a4paper]{report} % 'report' o 'book' son ideales para tesis
+
+% --- PAQUETES BÁSICOS ---
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel} % Para que diga "Capítulo" y no "Chapter"
+\usepackage[spanish, es-tabla]{babel}
+\usepackage{graphicx}       % Para las figuras
+\usepackage{natbib}         % Para la bibliografía
+\usepackage{hyperref}       % Para links interactivos en el PDF
+
+% Ruta donde buscar las imágenes (para no escribir figuras/nombre.png cada vez)
+\graphicspath{ {./figuras/} }
+
+% --- DATOS DE PORTADA ---
+\title{Caracterización de la precipitación y viento en ciclones extratropicales...}
+\author{Tu Nombre}
+\date{\today}
+
+% --- INICIO DEL DOCUMENTO ---
+\begin{document}
+
+\maketitle          % Genera la portada
+\tableofcontents    % Genera el índice automáticamente
+
+% --- AQUÍ IMPORTAMOS LOS CAPÍTULOS ---
+% Usamos \include porque crea un salto de página automático entre capítulos
+
+\include{capitulos/01_introduccion}
+\include{capitulos/02_marco_teorico}
+% ... agrega el resto de capítulos aquí
+
+% --- BIBLIOGRAFÍA ---
+\bibliographystyle{apalike}
+\bibliography{referencias}
+
+\end{document}

@@ -1,0 +1,47 @@
+\documentclass[12pt, a4paper]{report}
+
+% 1. IDIOMA (PRIMERO SIEMPRE)
+\usepackage[spanish, es-tabla, es-nodecimaldot]{babel}
+
+% 2. ESTILO PERSONALIZADO (sin hyperref ni cleveref aquí)
+\usepackage{estilo_tesis}
+
+% 3. HIPERVÍNCULOS (cargar AHORA en el documento principal)
+\usepackage[colorlinks=true,
+            linkcolor=black,
+            citecolor=black,
+            urlcolor=black,
+            bookmarks=true,
+            bookmarksopen=true,
+            pdfauthor={Tu Nombre},
+            pdftitle={Caracterización de la precipitación y el viento en la climatología asociada a ciclones}]{hyperref}
+
+% 4. CLEVEREF (después de hyperref)
+\usepackage[spanish]{cleveref}
+
+% 5. BOOKMARKS (después de hyperref y cleveref)
+\usepackage{bookmark}
+
+% Ruta para figuras
+\graphicspath{{./figuras/}}
+
+% Información del documento
+\title{Caracterización de la precipitación y el viento en la climatología asociada a ciclones}
+\author{Tu Nombre}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+% Incluir capítulos
+\include{capitulos_es/01_introduccion}
+\include{capitulos_es/02_marco_teorico}
+\include{capitulos_es/03_datos_metodo}
+
+% Bibliografía
+\bibliographystyle{apalike}  % Estilo compatible con natbib
+\bibliography{referencias}   % Tu archivo .bib
+
+\end{document}
