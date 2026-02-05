@@ -8,50 +8,45 @@ The style file: apalike.bst
 Database file #1: referencias.bib
 Warning--entry type for "hersbach_era5_2023b" isn't style-file defined
 --line 1 of file referencias.bib
-Warning--I didn't find a database entry for "bjerknes1922life"
-Warning--I didn't find a database entry for "shapiro1990life"
-Warning--I didn't find a database entry for "clark2005sting"
-Warning--I didn't find a database entry for "zscheischler2018future"
-Warning--I didn't find a database entry for "hannachi2007empirical"
-You've used 40 entries,
+You've used 45 entries,
             1935 wiz_defined-function locations,
-            722 strings with 13044 characters,
-and the built_in function-call counts, 18684 in all, are:
-= -- 1808
-> -- 931
-< -- 16
-+ -- 356
-- -- 326
-* -- 1757
-:= -- 3238
-add.period$ -- 121
-call.type$ -- 40
-change.case$ -- 363
-chr.to.int$ -- 38
-cite$ -- 40
-duplicate$ -- 572
-empty$ -- 1210
-format.name$ -- 386
-if$ -- 3558
-int.to.chr$ -- 3
+            749 strings with 14058 characters,
+and the built_in function-call counts, 20671 in all, are:
+= -- 2007
+> -- 1003
+< -- 20
++ -- 377
+- -- 348
+* -- 1919
+:= -- 3579
+add.period$ -- 137
+call.type$ -- 45
+change.case$ -- 397
+chr.to.int$ -- 44
+cite$ -- 45
+duplicate$ -- 653
+empty$ -- 1356
+format.name$ -- 417
+if$ -- 3959
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 39
-newline$ -- 203
-num.names$ -- 120
-pop$ -- 281
+missing$ -- 44
+newline$ -- 228
+num.names$ -- 137
+pop$ -- 307
 preamble$ -- 1
-purify$ -- 363
+purify$ -- 397
 quote$ -- 0
-skip$ -- 425
+skip$ -- 494
 stack$ -- 0
-substring$ -- 1525
-swap$ -- 53
-text.length$ -- 2
+substring$ -- 1663
+swap$ -- 67
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 238
+type$ -- 268
 warning$ -- 0
-while$ -- 148
+while$ -- 165
 width$ -- 0
-write$ -- 523
-(There were 6 warnings)
+write$ -- 589
+(There was 1 warning)

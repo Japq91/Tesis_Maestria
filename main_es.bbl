@@ -14,6 +14,13 @@ Bitencourt, D.~P., Manoel, G., Acevedo, O.~C., Fuentes, M.~V., Muza, M.~N.,
   extratropical cyclones.
 \newblock {\em Meteorological Applications}, 18(2):223--229.
 
+\bibitem[Blanchard et~al., 2021]{blanchard2021warm}
+Blanchard, N., Pantillon, F., Chaboureau, J.-P., and Delano{\"e}, J. (2021).
+\newblock Observations and simulation of intense convection embedded in a warm
+  conveyor belt--how ambient vertical wind shear determines the dominant
+  heating profile.
+\newblock {\em Weather and Climate Dynamics}, 2(1):89--110.
+
 \bibitem[Bretherton et~al., 1992]{bretherton1992intercomparison}
 Bretherton, C.~S., Smith, C., and Wallace, J.~M. (1992).
 \newblock An intercomparison of methods for finding coupled patterns in climate
@@ -46,13 +53,6 @@ Couto~de Souza, D. (2024).
   Energetics}.
 \newblock Tesis doctoral, Universidade de S{\~a}o Paulo.
 
-\bibitem[Couto~de Souza et~al., 2024]{coutodesouza2024new}
-Couto~de Souza, D., da~Silva~Dias, P.~L., Gramcianinov, C.~B., da~Silva, M.
-  B.~L., and de~Camargo, R. (2024).
-\newblock New perspectives on south atlantic storm track through an automatic
-  method for detecting extratropical cyclones' lifecycle.
-\newblock {\em International Journal of Climatology}, 44(10):3436--3456.
-
 \bibitem[Crespo et~al., 2021]{crespo2020potential}
 Crespo, N.~M., da~Rocha, R.~P., Sprenger, M., and Wernli, H. (2021).
 \newblock A potential vorticity perspective on cyclogenesis over centre-eastern
@@ -72,6 +72,13 @@ de~Jesus, E.~M., da~Rocha, R.~P., Crespo, N.~M., Reboita, M.~S., and Gozzo,
 \newblock Multi-model climate projections of the main cyclogenesis hot-spots
   and associated winds over the eastern coast of south america.
 \newblock {\em Climate Dynamics}, 56:537--557.
+
+\bibitem[de~Souza et~al., 2024]{coutodesouza2024new}
+de~Souza, D., Silva~Dias, P., Gramcianinov, C., Laviola~da Silva, M., and
+  De~Camargo, R. (2024).
+\newblock New perspectives on south atlantic storm track through an automatic
+  method for detecting extratropical cyclones' lifecycle.
+\newblock {\em International Journal of Climatology}, 44:n/a--n/a.
 
 \bibitem[de~Souza et~al., 2025]{deSouza2025CycloPhaser}
 de~Souza, D.~C., da~Silva~Dias, P.~L., Gramcianinov, C.~B., and de~Camargo, R.
@@ -102,6 +109,13 @@ Gozzo, L.~F. and da~Rocha, R.~P. (2013).
   shapiro-keyser type cyclone over the subtropical south atlantic ocean.
 \newblock {\em Pure and Applied Geophysics}, 170:917--934.
 
+\bibitem[Gramcianinov et~al., 2022]{gramcianinov2023impact}
+Gramcianinov, C., De~Camargo, R., Campos, R., Guedes~Soares, C., and
+  Silva~Dias, P. (2022).
+\newblock Impact of extratropical cyclone intensity and speed on the extreme
+  wave trends in the atlantic ocean.
+\newblock {\em Climate Dynamics}, 60.
+
 \bibitem[Gramcianinov et~al., 2019]{gramcianinov2019properties}
 Gramcianinov, C.~B., Campos, R., de~Camargo, R., and da~Rocha, R. (2019).
 \newblock The properties and genesis environments of south atlantic cyclones.
@@ -114,18 +128,18 @@ Gramcianinov, C.~B., Campos, R., de~Camargo, R., Hodges, K., Guedes~Soares, C.,
   years of era5 and cfsr/cfsv2 databases.
 \newblock {\em Ocean Engineering}, 216:108111.
 
-\bibitem[Gramcianinov et~al., 2023]{gramcianinov2023impact}
-Gramcianinov, C.~B., Gowan, E.~J., Campos, R., and da~Rocha, R.~P. (2023).
-\newblock Impact of extratropical cyclone intensity and speed on the extreme
-  wave trends in the atlantic ocean.
-\newblock {\em Climate Dynamics}, 60:1--19.
-
 \bibitem[Han and Ullrich, 2025]{han2025system}
 Han, Y. and Ullrich, P.~A. (2025).
 \newblock The system for classification of low-pressure systems (syclops): An
   all-in-one objective framework for large-scale data sets.
 \newblock {\em Journal of Geophysical Research: Atmospheres},
   130:e2024JD041287.
+
+\bibitem[Hannachi et~al., 2007]{hannachi2007empirical}
+Hannachi, A., Jolliffe, I.~T., and Stephenson, D.~B. (2007).
+\newblock Empirical orthogonal functions and related techniques in atmospheric
+  science: A review.
+\newblock {\em International Journal of Climatology}, 27(9):1119--1152.
 
 \bibitem[Hart, 2003]{hart2003cyclone}
 Hart, R.~E. (2003).
@@ -159,7 +173,7 @@ Hoskins, B.~J. and Hodges, K.~I. (2005).
 \bibitem[Inatsu and Hoskins, 2004]{inatsu2004zonal}
 Inatsu, M. and Hoskins, B.~J. (2004).
 \newblock The zonal asymmetry of the southern hemisphere winter storm track.
-\newblock {\em Journal of Climate}, 17(24):4882--4895.
+\newblock {\em Journal of Climate}, 17(24):4882--4892.
 
 \bibitem[Liang et~al., 2018]{liang2018multivariate}
 Liang, Y.-C., Mazloff, M.~R., Rosso, I., Fang, S.-W., and Yu, J.-Y. (2018).
@@ -172,7 +186,7 @@ Liang, Y.-C., Mazloff, M.~R., Rosso, I., Fang, S.-W., and Yu, J.-Y. (2018).
 Marrafon, V.~H., Reboita, M.~S., da~Rocha, R.~P., and de~Jesus, E.~M. (2022).
 \newblock Classifica{\c{c}}{\~a}o dos tipos de ciclones sobre o oceano
   atl{\^a}ntico sul em proje{\c{c}}{\~o}es com o regcm4 e mcgs.
-\newblock {\em Revista Brasileira de Climatologia}, 30:439--463.
+\newblock {\em Revista Brasileira de Climatologia}, 30.
 
 \bibitem[Padilha~Reinke et~al., 2026]{padilhareinke2026characterization}
 Padilha~Reinke, C.~K., Machado, J.~P., Brum, A.~L., de~Azevedo, J. L.~L., Mata,
@@ -213,28 +227,38 @@ Reboita, M.~S., Drumond, A., Ferreira, G., Zilli, M.~T., Crespo, N.~M.,
 \newblock In {\em Meteorology and Climate of South America and Surrounding
   Oceans}, pages 284--340. Cambridge University Press.
 
-\bibitem[Reboita et~al., 2022a]{reboita2022from}
+\bibitem[Reboita et~al., 2022]{reboita2022from}
 Reboita, M.~S., Gozzo, L.~F., Crespo, N.~M., Custodio, M. d.~S., Lucyrio, V.,
-  de~Jesus, E.~M., and da~Rocha, R.~P. (2022a).
+  de~Jesus, E.~M., and da~Rocha, R.~P. (2022).
 \newblock From a shapiro-keyser extratropical cyclone to the subtropical
   cyclone raoni: An unusual winter synoptic situation over the south atlantic
   ocean.
 \newblock {\em Quarterly Journal of the Royal Meteorological Society},
   148(748):3170--3193.
 
-\bibitem[Reboita et~al., 2022b]{reboita2021from}
-Reboita, M.~S., Gozzo, L.~F., Crespo, N.~M., Custodio, M. d.~S., Lucyrio, V.,
-  de~Jesus, E.~M., and da~Rocha, R.~P. (2022b).
-\newblock From a shapiro-keyser extratropical cyclone to the subtropical
-  cyclone raoni: An unusual winter synoptic situation over the south atlantic
-  ocean.
-\newblock {\em Quarterly Journal of the Royal Meteorological Society},
-  148(748):3170--3193.
+\bibitem[Shapiro and Keyser, 1990]{shapiro1990life}
+Shapiro, M.~A. and Keyser, D. (1990).
+\newblock Fronts, jet streams and the tropopause.
+\newblock In Newton, C. and Holopainen, E., editors, {\em Extratropical
+  Cyclones: The Erik Palm{\'e}n Memorial Volume}, pages 167--191. American
+  Meteorological Society.
+
+\bibitem[Simmonds and Keay, 2000]{simmonds2000variability}
+Simmonds, I. and Keay, K. (2000).
+\newblock Variability of southern hemisphere extratropical cyclone behavior,
+  1958--97.
+\newblock {\em Journal of Climate}, 13(3):550--561.
 
 \bibitem[Sinclair, 1994]{sinclair1994objective}
 Sinclair, M.~R. (1994).
 \newblock An objective cyclone climatology for the southern hemisphere.
 \newblock {\em Monthly Weather Review}, 122(10):2239--2256.
+
+\bibitem[Sinclair, 1997]{sinclair1997objective}
+Sinclair, M.~R. (1997).
+\newblock Objective identification of cyclones and their circulation intensity,
+  and climatology.
+\newblock {\em Weather and Forecasting}, 12(3):595--612.
 
 \bibitem[Sinclair and Catto, 2023]{sinclair2023relationship}
 Sinclair, V.~A. and Catto, J.~L. (2023).
@@ -251,5 +275,10 @@ Vera, C.~S., Vigliarolo, P.~K., and Berbery, E.~H. (2002).
 Wilks, D.~S. (2019).
 \newblock {\em Statistical Methods in the Atmospheric Sciences}.
 \newblock Elsevier, Amsterdam, 4 edition.
+
+\bibitem[Zscheischler et~al., 2018]{zscheischler2018future}
+Zscheischler, J., Westra, S., van~den Hurk, B. J. J.~M., et~al. (2018).
+\newblock Future climate risk from compound events.
+\newblock {\em Nature Climate Change}, 8(6):469--477.
 
 \end{thebibliography}
