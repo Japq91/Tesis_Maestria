@@ -12,7 +12,7 @@
 \contentsline {subsection}{\numberline {2.2.2}Fases dinámicas del ciclo de vida}{10}{subsection.2.2.2}%
 \contentsline {section}{\numberline {2.3}Regiones de ciclogénesis y entornos dinámicos}{11}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Región Sur-Sudeste de Brasil (SBR)}{11}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}La Plata y Uruguay (LPB)}{12}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}La Plata y Uruguay (LPB)}{11}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Patagonia y Argentina Austral (ARG)}{12}{subsection.2.3.3}%
 \contentsline {section}{\numberline {2.4}Caracterización de estructuras espaciales en eventos compuestos}{12}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}De la visión univariada a los eventos compuestos}{12}{subsection.2.4.1}%

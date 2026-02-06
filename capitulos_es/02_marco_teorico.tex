@@ -4,11 +4,11 @@
 %%$$$$$$
 \section{Dinámica de ciclones extratropicales}\label{sec:mt_fundamentos}
 
-\subsection{Definición y dinámica en el Atlántico Sur}\label{subsec:mt_definicion}
+\subsection{Dinámica en el Atlántico Sur}\label{subsec:mt_definicion}
 Si bien la teoría clásica define a los ciclones extratropicales como vórtices de núcleo frío impulsados por inestabilidad baroclínica \citep{hoskins2002new}, la caracterización de los sistemas en el Atlántico Sur requiere matices adicionales. En su tesis doctoral, \citet{coutodesouza2024thesis} realiza una revisión exhaustiva de la física de estos sistemas, concluyendo que la definición adiabática estándar es insuficiente para la región. Si bien la inestabilidad baroclínica proporciona el entorno favorable para la génesis, la evolución y la intensidad del sistema pueden ser fuertemente moduladas por procesos diabáticos asociados a la liberación de calor latente, especialmente en eventos de transición o con características híbridas. Este comportamiento es ilustrado por los experimentos de sensibilidad numérica presentados por
 \citet{reboita2022from}, donde la supresión de los flujos de calor latente altera de manera sustancial la estructura térmica y la intensidad del vórtice.
 
-\subsection{Vorticidad relativa como variable de estado}\label{subsec:mt_vorticidad}
+\subsection{Vorticidad relativa}\label{subsec:mt_vorticidad}
 Dada esta complejidad térmica y la rapidez de los sistemas en el Hemisferio Sur, la presión al nivel del mar (MSLP) resulta a menudo una métrica inadecuada para la detección temprana. Siguiendo la recomendación metodológica de \citet{sinclair1997objective}, este estudio utiliza la vorticidad relativa en 850 hPa ($\zeta_{850}$) como variable de seguimiento.
 
 Físicamente, la componente vertical de la vorticidad relativa se define como:
@@ -21,11 +21,11 @@ Donde $u$ y $v$ son las componentes zonal y meridional del viento, respectivamen
 %%$$$$$$
 \section{Evolución estructural y ciclo de vida}\label{sec:mt_evolucion}
 
-\subsection{Modelos conceptuales: Asimetría y Fractura Frontal}\label{subsec:mt_modelos}
+\subsection{Asimetría y Fractura Frontal}\label{subsec:mt_modelos}
 La distribución espacial de los impactos en superficie (viento y precipitación) está condicionada por el modelo conceptual que describe la evolución del ciclón. Frente al modelo Noruego clásico, que presenta una oclusión simétrica, los ciclones oceánicos intensos del Atlántico Sur suelen seguir el modelo de Fractura Frontal propuesto por \citet{shapiro1990life}. En este paradigma, el frente frío se fractura y se separa del centro, permitiendo el aislamiento de una masa de aire cálido en el núcleo (\textit{warm seclusion}). Esta configuración favorece asimetrías intensas en las variables de superficie, donde los máximos de viento y precipitación se desacoplan del centro de la baja presión, un rasgo recurrente documentado en la climatología regional por \citet{reboita2010south}.
 
 
-\subsection{Fases dinámicas del ciclo de vida}\label{subsec:mt_fases}
+\subsection{Fases del ciclo de vida}\label{subsec:mt_fases}
 
 Para caracterizar la evolución temporal de estos impactos, este estudio adopta la segmentación del ciclo de vida en cuatro etapas dinámicas discretas. Esta clasificación sigue la metodología objetiva del paquete computacional \textit{CycloPhaser} \citep{deSouza2025CycloPhaser}, aplicado por \citet{coutodesouza2024new}, el cual utiliza la tasa de cambio de la vorticidad relativa para definir los siguientes regímenes estructurales:
 
@@ -41,7 +41,7 @@ Para caracterizar la evolución temporal de estos impactos, este estudio adopta 
 %%$$$$$$
 %%%%%%%% SECTION 3
 %%$$$$$$
-\section{Regiones de ciclogénesis y entornos dinámicos}\label{sec:mt_regiones}
+\section{Regiones de ciclogénesis}\label{sec:mt_regiones}
 
 La interacción entre el flujo de los oestes, la topografía de los Andes y la Temperatura Superficial del Mar (TSM) define tres regiones de génesis con características físicas diferenciadas \citep{gramcianinov2019properties}:
 
@@ -57,16 +57,16 @@ La región comprendida entre $30^\circ$S y $40^\circ$S constituye uno de los pri
 
 
 
-\subsection{Patagonia y Argentina Austral (ARG)}\label{subsec:mt_arg}
-El sector austral ($>40^\circ$S, RG3) responde a un régimen dinámico clásico dominado por la baroclinicidad de gran escala. A diferencia de los focos subtropicales, \citet{hoskins2005new} describen esta zona como gobernada por la inestabilidad baroclínicacomo, donde la génesis depende del chorro polar y el paso de ondas de Rossby. Aquí, \citet{simmonds2000variability} indican que estos sistemas dependen menos de los forzantes locales de superficie y más de la dinámica de la alta troposfera. Los ciclos de vida son más lineales y rápidos en comparación con SBR \citep{vera2002cold}. 
+\subsection{Patagonia y Argentina (ARG)}\label{subsec:mt_arg}
+El sector austral ($>40^\circ$S, RG3) responde a un régimen dinámico clásico dominado por la baroclinicidad de gran escala. A diferencia de los focos subtropicales, \citet{hoskins2005new} describen esta zona como gobernada por la inestabilidad baroclínica, donde la génesis depende del chorro polar y el paso de ondas de Rossby. Aquí, \citet{simmonds2000variability} indican que estos sistemas dependen menos de los forzantes locales de superficie y más de la dinámica de la alta troposfera. Los ciclos de vida son más lineales y rápidos en comparación con SBR \citep{vera2002cold}. 
 %%$$$$$$
 %%%%%%%% SECTION 4
 %%$$$$$$
-\section{Caracterización de estructuras espaciales en eventos compuestos}\label{sec:mt_compuestos}
+\section{Estructuras espaciales}\label{sec:mt_compuestos}
 
 La complejidad inherente a los ciclones extratropicales del Atlántico Sur requiere superar el análisis univariado tradicional. En esta sección se fundamenta la adopción del paradigma de "evento compuesto" y se describen las herramientas estadísticas avanzadas (MEOF y KDE) necesarias para capturar su estructura asimétrica y la distribución de sus máximos.
 
-\subsection{De la visión univariada a los eventos compuestos}\label{subsec:mt_compound_def}
+\subsection{Eventos compuestos}\label{subsec:mt_compound_def}
 Históricamente, la intensidad de los ciclones se ha caracterizado mediante métricas puntuales, como la presión mínima central o la vorticidad máxima. Sin embargo, la literatura reciente ha adoptado el enfoque de \textit{compound events} (eventos compuestos), definidos formalmente por \citet{zscheischler2018future} como situaciones donde la combinación de múltiples forzantes climáticos (p. ej., viento y precipitación extremos) genera magnitudes conjuntas mayores que la suma de sus componentes individuales.
 
 En el contexto de la dinámica extratropical, \citet{chen2025characteristics} establecen que la interacción entre el campo de viento y la precipitación no es lineal ni espacialmente homogénea. La ocurrencia conjunta de estos extremos responde a mecanismos físicos acoplados: la intensificación dinámica suele estar modulada por procesos diabáticos (liberación de calor latente), lo que sugiere una dependencia estadística entre ambas variables que varía según la fase de vida del sistema. Por tanto, para caracterizar integralmente la dinámica del sistema, se requiere un enfoque multivariado que cuantifique esta covariabilidad física.
@@ -80,7 +80,7 @@ Específicamente para eventos compuestos, \citet{liang2018multivariate} demostra
 \end{equation}
 Esta normalización permite identificar si los máximos de precipitación y viento covarían espacialmente o si presentan desfases estructurales sistemáticos. Asimismo, enfoques recientes de clasificación objetiva, como el PCA disperso utilizado por \citet{corner2025classification}, validan el uso de espacios de fase reducidos para distinguir entre regímenes dinámicos sin depender exclusivamente de umbrales arbitrarios de presión.
 
-\subsection{Asimetría estructural y Estimación de Densidad (KDE)}\label{subsec:mt_kde_asimetria}
+\subsection{Estimación de Densidad (KDE)}\label{subsec:mt_kde_asimetria}
 Una vez establecido el acoplamiento entre variables, es crítico resolver su distribución espacial. Los ciclones extratropicales son sistemas altamente asimétricos, donde los máximos raramente coinciden con el centro geométrico de la baja presión:
 \begin{itemize}
     \item \textbf{Precipitación:} Controlada por el \textit{Warm Conveyor Belt} (WCB), tiende a concentrarse en el sector sureste (en el Hemisferio Sur) durante la etapa de desarrollo \citep{blanchard2021warm}.
