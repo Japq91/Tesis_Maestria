@@ -3,13 +3,13 @@
 *.grib
 *.hdf5
 *.mat
-
+*.aux
 # Archivos temporales
 *.pyc
 __pycache__/
 *.log
 *.out
-
+*.ipynb_checkpoints*
 # Configuraciones locales
 .env
 config.local.*

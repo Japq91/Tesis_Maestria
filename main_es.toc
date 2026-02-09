@@ -25,12 +25,15 @@
 \contentsline {section}{\numberline {3.3}Base de datos de ciclones}{16}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Trayectorias}{16}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Fases del ciclo de vida}{17}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Selección de ciclones}{17}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Procesamiento}{18}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Estratificación por regiones de ciclogénesis}{18}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Técnicas estadísticas de caracterización}{19}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Máximos y análisis de histogramas}{19}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Estimación de densidad de kernel (KDE)}{19}{subsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.6.3}Funciones ortogonales empíricas (EOF) univariado}{20}{subsection.3.6.3}%
-\contentsline {subsection}{\numberline {3.6.4}EOF combinado (multivariado) precipitación--viento}{20}{subsection.3.6.4}%
-\contentsline {section}{\numberline {3.7}Análisis del subconjunto de ciclones intensos}{21}{section.3.7}%
+\contentsline {section}{\numberline {3.4}Estratificación por regiones de ciclogénesis}{17}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Definición de las poblaciones de estudio}{18}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Grupo Control: Climatología de referencia}{18}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Subconjunto de ciclones intensos}{19}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Validación de la selección}{19}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Estrategia de análisis comparativo}{19}{subsection.3.5.4}%
+\contentsline {section}{\numberline {3.6}Procesamiento}{20}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Técnicas estadísticas de caracterización}{21}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Máximos y análisis de histogramas}{21}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Estimación de densidad de kernel (KDE)}{21}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}Funciones ortogonales empíricas (EOF) univariado}{21}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {3.7.4}EOF combinado (multivariado) precipitación--viento}{22}{subsection.3.7.4}%

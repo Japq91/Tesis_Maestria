@@ -1,16 +1,18 @@
 \chapter{Metodología}\label{ch:metodologia}
 
+%%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%
+%%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%
+
 \section{Diseño general}\label{sec:diseno_general}
 
-El objetivo metodológico central de esta tesis consiste en caracterizar la distribución espacial y la magnitud de los máximos de precipitación y viento asociados a los ciclones extratropicales del Atlántico Sur, adoptando un marco de referencia lagrangiano centrado en el sistema. El análisis se condiciona sistemáticamente por dos factores determinantes: la fase del ciclo de vida del ciclón y su región de ciclogénesis en Sudamérica.
+El objetivo metodológico central de esta tesis consiste en caracterizar la distribución espacial y la magnitud de los máximos de precipitación y viento asociados a los ciclones extratropicales del Atlántico Sur, adoptando un marco de referencia lagrangiano centrado en el sistema. El análisis se condiciona sistemáticamente por dos factores determinantes: la fase del ciclo de vida del ciclón y su región de ciclogénesis en Sudamérica. La estrategia experimental se estructura en una secuencia lógica: se parte de una base de datos preexistente de trayectorias y una clasificación objetiva de fases evolutivas; sobre esta base, se extraen campos horarios del reanálisis alrededor del centro de cada sistema para construir compositos representativos y, finalmente, se aplican técnicas estadísticas para cuantificar los extremos de las variables de impacto.
 
-La estrategia experimental se estructura en una secuencia lógica: se parte de una base de datos preexistente de trayectorias y una clasificación objetiva de fases evolutivas; sobre esta base, se extraen campos horarios del reanálisis alrededor del centro de cada sistema para construir compositos representativos y, finalmente, se aplican técnicas estadísticas para cuantificar los extremos de las variables de impacto.
+%%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%
+%%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%
 
 \section{Datos del Reanálisis ERA5}\label{sec:datos_era5}
 
-Para la caracterización de los campos atmosféricos se utilizó el reanálisis de quinta generación del ECMWF, ERA5, descrito por \citet{hersbach2020era5}. Se analizó el período comprendido entre 1979 y 2020, accediendo específicamente a las variables de precipitación y viento a través del conjunto de datos \textit{``ERA5 hourly data on single levels from 1940 to present''} \citep{hersbach_era5_2023b}.
-
-La elección de ERA5 responde a su alta resolución espacial ($\sim$31 km) y temporal (horaria). Esta capacidad para resolver escalas finas es crítica en este estudio, ya que, tal como han demostrado \citet{priestley2022improved} y \citet{dalanhese2023new}, la mayor resolución reduce la subestimación de la intensidad de los sistemas observada en generaciones previas de reanálisis, permitiendo una representación más realista de los gradientes de viento y los núcleos de precipitación asociados a los ciclones.
+Para la caracterización de los campos atmosféricos se utilizó el reanálisis de quinta generación del ECMWF, ERA5, descrito por \citet{hersbach2020era5}. Se analizó el período comprendido entre 1979 y 2020, accediendo específicamente a las variables de precipitación y viento a través del conjunto de datos \textit{``ERA5 hourly data on single levels from 1940 to present''} \citep{hersbach_era5_2023b}. La elección de ERA5 responde a su alta resolución espacial ($\sim$31 km) y temporal (horaria). Esta capacidad para resolver escalas finas es crítica en este estudio, ya que, tal como han demostrado \citet{priestley2022improved} y \citet{dalanhese2023new}, la mayor resolución reduce la subestimación de la intensidad de los sistemas observada en generaciones previas de reanálisis, permitiendo una representación más realista de los gradientes de viento y los núcleos de precipitación asociados a los ciclones.
 
 \subsection{Variables meteorológicas}\label{subsec:variables}
 
@@ -22,6 +24,9 @@ La caracterización de los patrones espaciales se realizó a partir de campos ho
 
 La decisión de analizar conjuntamente los campos de viento y precipitación responde a la necesidad de capturar la estructura de los eventos compuestos (\textit{compound events}). Investigaciones recientes en latitudes medias, como la de \citet{chen2025characteristics}, muestran que la co-ocurrencia temporal y local de máximos de viento y precipitación, cuya organización espacial resulta del forzante sinóptico asociado a los ciclones extratropicales. Esta interacción define el evento más allá de sus componentes individuales y motiva la aplicación de técnicas multivariadas para desacoplar sus modos de variabilidad y analizar la coherencia espacial emergente.
 % Chen et al. (2025), Introduction % "Compound events arise from the interaction between multiple drivers, such that their combined occurrence leads to impacts and characteristics that differ from those associated with individual extremes." Section 2: Data and Methods % "A compound wind–precipitation extreme is defined when a local wind extreme occurs within ±6 hours of a local precipitation extreme at the same grid point."
+
+%%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%
+%%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%
 
 \section{Base de datos de ciclones}\label{sec:bd_ciclones_fases}
 
@@ -44,20 +49,8 @@ Para los fines de esta tesis, no se utilizaron las trayectorias crudas, sino la 
     \item \textbf{Decaimiento (D):} Fase de debilitamiento progresivo (ciclolisis).
 \end{enumerate}
 
-%\subsection{Selección del subconjunto}\label{subsec:filtro_lineal}
-\subsection{Selección de ciclones}\label{subsec:ciclos_canonicos}
-A partir de esta base de datos procesada, se aplicó un criterio de selección específico para el análisis estadístico de los impactos. Si bien la transición entre fases puede presentar re-intensificaciones complejas, esta investigación se restringe a un subconjunto de ciclones con una evolución lineal.
-
-Esto implica que se seleccionaron únicamente los sistemas que atraviesan estrictamente y en orden las cuatro fases: Incipiente $\rightarrow$ Intensificación $\rightarrow$ Madurez $\rightarrow$ Decaimiento. Este arquetipo representa aproximadamente el 60\% de los sistemas del Atlántico Sur según las estadísticas de \citet{coutodesouza2024new}. Esta restricción metodológica es necesaria para garantizar la homogeneidad de la muestra, asegurando que los compositos de cada fase (Ic, It, M, D) sean físicamente comparables y no estén contaminados por la redistribución de energía asociada a ciclos de vida no monotónicos.
-
-\section{Procesamiento}\label{sec:procesamiento_lagrangiano}
-
-Para analizar la estructura de los ciclones independientemente de su ubicación geográfica absoluta, se adopta un marco de referencia relativo o lagrangiano. Para cada instante $t$ de la vida de un ciclón, se define un dominio móvil de $20^{\circ} \times 20^{\circ}$ centrado en las coordenadas de su núcleo, proporcionadas por la base de datos de trayectorias. Dentro de este dominio, se extraen los campos de las variables de impacto.
-
-Este enfoque de composición centrada en el ciclón es fundamental para aislar la señal de mesoescala de los sistemas extratropicales y ha sido ampliamente utilizado para caracterizar sus entornos en el Atlántico Sur \citep{crespo2020potential, priestley2022improved}. El análisis se realiza de forma separada para cada combinación de región de ciclogénesis y fase del ciclo de vida, permitiendo estratificar los resultados de manera simultánea por estos dos factores.
-
-Para evitar la variabilidad de alta frecuencia inherente a los datos horarios y obtener un campo representativo de la estructura media del ciclón en cada fase, se aplica un promediado temporal. Específicamente, para cada ciclón y para cada fase por la que atraviesa, se seleccionan los dos o tres tiempos centrales de dicha fase (dependiendo de si su duración en horas es par o impar) y se promedian sus campos espaciales. Este procedimiento genera un campo promedio por ciclón--fase, sobre el cual se realizarán los análisis subsiguientes.
 %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%
+%%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%
 
 \section{Estratificación por regiones de ciclogénesis}\label{sec:regiones_ciclogenesis}
 
@@ -70,42 +63,90 @@ La base de datos incluye la localización de la génesis de cada sistema, permit
     \item ARG (Patagonia/Argentina): $70^\circ-50^\circ$W, $55^\circ-39^\circ$S
 \end{itemize}
 
-Esta segmentación operativa es consistente con los regímenes dinámicos descritos en la síntesis climática reciente de \citet{reboita2026meteorology}. Según esta revisión, cada sector presenta mecanismos de forzamiento únicos:
+Esta segmentación de areas es consistente (aunque no exactamente los mismos limites) con los regímenes dinámicos descritos (RG1,2,3 detallados en la introducción) en la síntesis climática reciente de \citet{reboita2026meteorology}. Según esta revisión, cada sector presenta mecanismos de forzamiento únicos. La región SBR se distingue por un régimen frecuentemente influenciado por procesos diabáticos y transiciones híbridas. Como detallan \citet{marrafon2022classificacao} y \citet{reboita2022from}, es aquí donde la interacción con los gradientes de la Temperatura Superficial del Mar (TSM) y el transporte de humedad favorece el desarrollo de sistemas con núcleos cálidos. Por su parte, la región LPB actúa como una zona de transición crítica. Estudios de \citet{crespo2020potential} demuestran que la ciclogénesis en este sector está fuertemente forzada por anomalías de vorticidad potencial en niveles altos, lo que, sumado a la baroclinicidad costera, favorece una alta densidad de eventos explosivos \citep{andrade2024composite}. Finalmente, ARG representa un entorno dominado por la dinámica baroclínica asociada al frente polar y al forzante orográfico de los Andes, donde la evolución de los sistemas está fuertemente controlada por la circulación de niveles altos \citep{vera2002cold, inatsu2004zonal}.
 
-La región SBR se distingue por un régimen frecuentemente influenciado por procesos diabáticos y transiciones híbridas. Como detallan \citet{marrafon2022classificacao} y \citet{reboita2022from}, es aquí donde la interacción con los gradientes de la Temperatura Superficial del Mar (TSM) y el transporte de humedad favorece el desarrollo de sistemas con núcleos cálidos. Por su parte, la región LPB actúa como una zona de transición crítica. Estudios de \citet{crespo2020potential} demuestran que la ciclogénesis en este sector está fuertemente forzada por anomalías de vorticidad potencial en niveles altos, lo que, sumado a la baroclinicidad costera, favorece una alta densidad de eventos explosivos \citep{andrade2024composite}. Finalmente, ARG representa un entorno dominado por la dinámica baroclínica asociada al frente polar y al forzante orográfico de los Andes, donde la evolución de los sistemas está fuertemente controlada por la circulación de niveles altos \citep{vera2002cold, inatsu2004zonal}.
-
+%%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%
 %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%
+
+% NUEVA LINEA PARA EXPLICAR EL CONJUNTO DE DATOS
+\section{Definición de las poblaciones de estudio}\label{sec:poblaciones_estudio}
+
+Para caracterizar los ciclones extratropicales y evaluar el efecto de su intensidad en los impactos asociados, se definieron dos poblaciones de estudio a partir de la base de datos de trayectorias: una climatología de referencia (Grupo Control) y un subconjunto de eventos extremos (Subconjunto Intenso). La identificación de ambas poblaciones se realizó aplicando filtros secuenciales de calidad estructural e intensidad dinámica sobre las tres regiones de ciclogénesis de interés (ARG, SBR y BLP).
+
+\subsection{Grupo Control: Climatología de referencia}\label{subsec:grupo_control}
+
+El objetivo de este grupo es establecer el comportamiento medio de los ciclones que presentan un desarrollo típico en la región. Para conformarlo, se aplicó un filtro de coherencia evolutiva a la totalidad de ciclones detectados. Se seleccionaron únicamente aquellos sistemas que cumplen con los siguientes criterios estrictos:
+
+\begin{enumerate}
+    \item \textbf{Ciclo de vida completo:} Presencia secuencial de las cuatro fases fundamentales definidas por el algoritmo de seguimiento: \textit{Ic}, \textit{It}, \textit{M} y \textit{D}.
+    \item \textbf{Ausencia de fases complejas:} Se excluyeron sistemas que presenten fases secundarias o de re-intensificación (e.g., \textit{intensification 2}, \textit{mature 2}) o fases residuales (\textit{residual}), garantizando una muestra homogénea de sistemas de desarrollo baroclínico.
+\end{enumerate}
+
+Para cada ciclón de este grupo, se identificó el momento de su máxima intensidad (mínimo de vorticidad, $\zeta_{850}^{min}$) con el fin de alinear temporalmente los análisis posteriores. Este conjunto filtrado reduce significativamente el ruido introducido por sistemas efímeros o de evolución errática (ver Tabla \ref{tab:conteo_ciclones}).
+
+\subsection{Subconjunto de ciclones intensos}\label{subsec:grupo_intenso}
+
+A partir del Grupo Control (sistemas con estructura completa), se extrajo un subconjunto para aislar los eventos de mayor severidad dinámica. Dado que en el Hemisferio Sur la circulación ciclónica se asocia a valores negativos de vorticidad, se utilizó el mínimo de vorticidad a 850 hPa ($\zeta_{850}^{min}$) como métrica de intensidad. El criterio de selección fue estadístico: se retuvieron aquellos ciclones cuyo $\zeta_{850}^{min}$ se ubicó en el primer decil (10\% inferior) de la distribución de vorticidades del Grupo Control. De esta forma, se aíslan los vórtices más profundos de la climatología. La Tabla \ref{tab:conteo_ciclones} detalla el tamaño muestral final para ambas poblaciones en cada región.
+
+\begin{table}[ht]
+\centering
+\caption{Número de ciclones seleccionados por región. La columna ``Detectados'' refiere a la base cruda; ``Grupo Control'' aplica el filtro de 4 fases; ``Intensos'' corresponde al percentil 10 de vorticidad del Grupo Control.}
+\label{tab:conteo_ciclones}
+\begin{tabular}{l c c c}
+\hline
+\textbf{Región} & \textbf{Total} & \textbf{Grupo Control} & \textbf{Subconjunto Intenso} \\ \hline
+ARG      & 4015 & 1980 & 198 \\
+SBR    & 1486 & 641  & 64  \\
+BLP & 1288 & 669  & 67  \\ \hline
+\end{tabular}
+\end{table}
+
+\subsection{Validación de la selección}
+
+Un aspecto crítico de esta estratificación es verificar que los ciclones intensos seleccionados mantienen una evolución física coherente. El análisis de la fase en la que ocurre el mínimo de vorticidad (Tabla \ref{tab:fase_max_intensidad}) confirma que el subconjunto intenso presenta una dinámica similar al Grupo Control, donde el pico de intensidad ocurre en la fase de madurez en un $\sim$72\% de los casos, mientras que, en los ciclones intensos esta proporción aumenta al $\sim$83\%. Asimismo, se observa una reducción drástica de casos que alcanzan su máximo durante la fase de decaimiento en el grupo intenso ($\sim$5\% frente a $\sim$15\%), lo que indica que estos sistemas extremos alcanzan su plenitud estructural antes de comenzar su disipación.
+
+\begin{table}[ht]
+\centering
+\caption{Distribución porcentual de la fase en la que se registra la máxima intensidad ($\zeta_{850}^{min}$), promediada entre las tres regiones.}
+\label{tab:fase_max_intensidad}
+\begin{tabular}{l c c}
+\hline
+\textbf{Fase del ciclo de vida} & \textbf{Grupo Control (\%)} & \textbf{Subconjunto Intenso (\%)} \\ \hline
+Incipiente       & $\sim$0.1 & ---  \\
+Intensificación  & 13.2      & 11.7 \\
+Madurez          & 71.8      & 83.4 \\
+Decaimiento      & 14.9      & 4.9  \\ \hline
+\end{tabular}
+\end{table}
+
+\subsection{Estrategia de análisis comparativo}
+
+Sobre este subconjunto de ciclones intensos se aplicará íntegramente el flujo metodológico que se detalla en las secciones subsiguientes: construcción de campos promedio por fase, extracción de máximos, análisis de histogramas, KDE de localización y análisis EOF. La comparación sistemática entre los resultados del conjunto total y los del subconjunto intenso permitirá evaluar si una mayor intensidad dinámica del vórtice se asocia con cambios significativos en: (i) la magnitud de los máximos de viento y precipitación, (ii) la distribución espacial relativa de estos máximos, y (iii) los patrones estructurales dominantes. Estudios compositivos recientes como \citet{andrade2024composite} sugieren que los ciclones más intensos pueden presentar estructuras frontales y patrones de impacto distintivos.
+
+%%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%
+%%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%
+
+\section{Procesamiento}\label{sec:procesamiento_lagrangiano}
+
+Para analizar la estructura de los ciclones independientemente de su ubicación geográfica absoluta, se adopta un marco de referencia relativo o lagrangiano. Para cada instante $t$ de la vida de un ciclón, se define un dominio móvil de $20^{\circ} \times 20^{\circ}$ centrado en las coordenadas de su núcleo, proporcionadas por la base de datos de trayectorias. Dentro de este dominio, se extraen los campos de las variables de impacto. Este enfoque de composición centrada en el ciclón es fundamental para aislar la señal de mesoescala de los sistemas extratropicales y ha sido ampliamente utilizado para caracterizar sus entornos en el Atlántico Sur \citep{crespo2020potential, priestley2022improved}. El análisis se realiza de forma separada para cada combinación de región de ciclogénesis y fase del ciclo de vida, permitiendo estratificar los resultados de manera simultánea por estos dos factores. Para evitar la variabilidad de alta frecuencia inherente a los datos horarios y obtener un campo representativo de la estructura media del ciclón en cada fase, se aplica un promediado temporal. Específicamente, para cada ciclón y para cada fase por la que atraviesa, se seleccionan los dos o tres tiempos centrales de dicha fase (dependiendo de si su duración en horas es par o impar) y se promedian sus campos espaciales. Este procedimiento genera un campo promedio por ciclón--fase, sobre el cual se realizarán los análisis subsiguientes.
+
+%%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%
+%%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%% # %%%%%%%%%%
+
 \section{Técnicas estadísticas de caracterización}\label{sec:tecnicas_estadisticas}
 
 \subsection{Máximos y análisis de histogramas}\label{subsec:extraccion_histogramas}
 
-A partir del campo promedio por ciclón--fase, se identifica la magnitud y la ubicación (en coordenadas relativas al centro) del valor máximo de la variable dentro del dominio de $20^{\circ} \times 20^{\circ}$. Este procedimiento genera, para cada combinación región--fase--variable, un conjunto de $m$ valores máximos (uno por ciclón).
-
-Con estos valores se construyen histogramas de frecuencias para describir la distribución de las magnitudes máximas. Este análisis permite comparar cuantitativamente cómo cambian los rangos de valores más probables o extremos entre las diferentes fases del ciclo de vida y entre las distintas regiones de ciclogénesis.
+A partir del campo promedio por ciclón--fase, se identifica la magnitud y la ubicación (en coordenadas relativas al centro) del valor máximo de la variable dentro del dominio de $20^{\circ} \times 20^{\circ}$. Este procedimiento genera, para cada combinación región--fase--variable, un conjunto de $m$ valores máximos (uno por ciclón). Con estos valores se construyen histogramas de frecuencias para describir la distribución de las magnitudes máximas. Este análisis permite comparar cuantitativamente cómo cambian los rangos de valores más probables o extremos entre las diferentes fases del ciclo de vida y entre las distintas regiones de ciclogénesis.
 
 \subsection{Estimación de densidad de kernel (KDE)}\label{subsec:kde_localizacion}
 
-Para caracterizar la distribución espacial preferencial de la ocurrencia de máximos, se transforma cada campo promedio por ciclón--fase en un mapa binario. En este mapa, todos los píxeles tienen valor 0, excepto el píxel correspondiente a la ubicación del máximo, que tiene valor 1. A partir del conjunto de $m$ mapas binarios para una combinación región--fase--variable dada, se aplica una estimación de densidad de kernel (KDE).
-
-El resultado es un campo continuo de densidad de probabilidad relativa que indica, para cada posición dentro del dominio centrado, la probabilidad de encontrar el máximo de la variable. Esta técnica es particularmente útil para visualizar asimetrías sistemáticas en la distribución espacial de los impactos, permitiendo evaluar, por ejemplo, si los vientos máximos tienden a ubicarse en un cuadrante específico respecto al centro, y cómo esto varía con la fase del ciclo de vida \citep{gramcianinov2023impact}.
+Para caracterizar la distribución espacial preferencial de la ocurrencia de máximos, se transforma cada campo promedio por ciclón--fase en un mapa binario. En este mapa, todos los píxeles tienen valor 0, excepto el píxel correspondiente a la ubicación del máximo, que tiene valor 1. A partir del conjunto de $m$ mapas binarios para una combinación región--fase--variable dada, se aplica una estimación de densidad de kernel (KDE). El resultado es un campo continuo de densidad de probabilidad relativa que indica, para cada posición dentro del dominio centrado, la probabilidad de encontrar el máximo de la variable. Esta técnica es particularmente útil para visualizar asimetrías sistemáticas en la distribución espacial de los impactos, permitiendo evaluar, por ejemplo, si los vientos máximos tienden a ubicarse en un cuadrante específico respecto al centro, y cómo esto varía con la fase del ciclo de vida \citep{gramcianinov2023impact}.
 
 \subsection{Funciones ortogonales empíricas (EOF) univariado}\label{subsec:eof_univariado}
 
-Para identificar los patrones espaciales dominantes de variabilidad en la estructura de los ciclones dentro del marco centrado, se aplica un análisis de Funciones Ortogonales Empíricas (EOF). Este análisis se realiza de manera separada para cada variable (V10, V100, precipitación), región de ciclogénesis y fase del ciclo de vida, utilizando el conjunto de $m$ campos promedio (compositos) por ciclón--fase.
-
-Previo al análisis, a cada campo composito se le resta la media espacial del conjunto y se aplica una ponderación por la raíz cuadrada del coseno de la latitud para tener en cuenta la convergencia de los meridianos. La EOF descompone la varianza total del conjunto en modos espaciales ortogonales (las EOFs) y sus correspondientes series temporales (componentes principales). Este método, adaptado al dominio lagrangiano, permite aislar y comparar las estructuras espaciales más recurrentes o típicas asociadas a los ciclones en cada contexto (región/fase), siguiendo la lógica de análisis de patrones aplicada en estudios sinópticos \citep{vera2002cold}.
+Para identificar los patrones espaciales dominantes de variabilidad en la estructura de los ciclones dentro del marco centrado, se aplica un análisis de Funciones Ortogonales Empíricas (EOF). Este análisis se realiza de manera separada para cada variable (V10, V100, precipitación), región de ciclogénesis y fase del ciclo de vida, utilizando el conjunto de $m$ campos promedio (compositos) por ciclón--fase. Previo al análisis, a cada campo composito se le resta la media espacial del conjunto y se aplica una ponderación por la raíz cuadrada del coseno de la latitud para tener en cuenta la convergencia de los meridianos. La EOF descompone la varianza total del conjunto en modos espaciales ortogonales (las EOFs) y sus correspondientes series temporales (componentes principales). Este método, adaptado al dominio lagrangiano, permite aislar y comparar las estructuras espaciales más recurrentes o típicas asociadas a los ciclones en cada contexto (región/fase), siguiendo la lógica de análisis de patrones aplicada en estudios sinópticos \citep{vera2002cold}.
 
 \subsection{EOF combinado (multivariado) precipitación--viento}\label{subsec:eof_multivariado}
 
-Para evaluar la covariabilidad espacial entre los campos de precipitación y viento, se realiza un análisis EOF combinado (MEOF). Dado que estas variables poseen unidades físicas y rangos de varianza dispares (mm/h vs. m/s), es un requisito metodológico fundamental estandarizar las series antes de su integración para evitar que la variable con mayor magnitud numérica domine los modos resultantes \citep{wilks2019statistical}.
-
-El procedimiento consiste en: (i) calcular las anomalías de cada campo respecto a su media; (ii) normalizar dichas anomalías dividiéndolas por la desviación estándar espacialmente promediada de cada variable, asegurando un peso equiparable en la matriz de covarianza combinada; y (iii) concatenar espacialmente los campos normalizados para formar un vector de estado ampliado, siguiendo el esquema de análisis de patrones acoplados descrito por \citet{bretherton1992intercomparison}.
-
-El análisis EOF aplicado a esta matriz combinada permite obtener modos acoplados que expliquen la varianza conjunta, siguiendo la base matemática de descomposición multivariada validada por \citet{liang2018multivariate}. La aplicación de esta técnica es instrumental para responder a interrogantes físicas recientes planteadas por \citet{sinclair2023relationship}, permitiendo revelar si los núcleos de precipitación intensa se co-ubican sistemáticamente con los gradientes de viento más fuertes y cómo esta coherencia estructural evoluciona a lo largo del ciclo de vida.
-
-\section{Análisis del subconjunto de ciclones intensos}\label{sec:ciclones_intensos}
-
-Con el fin de evaluar si los patrones identificados cambian para sistemas con vorticidad mas intensa y potencialmente más dañinos, se define un subconjunto de ciclones basado en un criterio dinámico. Para cada ciclón en la base de datos, se extrae el valor mínimo de vorticidad relativa a 850 hPa ($\zeta_{850}^{min}$) a lo largo de todo su ciclo de vida. En el Hemisferio Sur, valores más negativos indican un vórtice más intenso. El subconjunto intenso se define como el 10\% de ciclones con los valores de $\zeta_{850}^{min}$ más negativos. 
-Enfoques previos, como \citet{reboita2010south}, han empleado criterios dinámicos basados en vorticidad para identificar y discriminar ciclones según su intensidad.
-
-Sobre este subconjunto se repite íntegramente el flujo metodológico descrito en las secciones anteriores: construcción de campos promedio por fase, extracción de máximos, análisis de histogramas, KDE de localización y análisis EOF (tanto univariado como multivariado). La comparación sistemática entre los resultados del conjunto total y los del subconjunto intenso permite evaluar de manera robusta si una mayor intensidad dinámica del vórtice se asocia con cambios significativos en: (i) la magnitud de los máximos de viento y precipitación, (ii) la distribución espacial relativa de estos máximos, y (iii) los patrones estructurales dominantes, tanto para cada fase como para cada región de ciclogénesis. Estudios compositivos recientes sugieren que los ciclones más intensos, especialmente los explosivos, pueden presentar estructuras frontales y patrones de impacto distintivos \citep{andrade2024composite}.
+Para evaluar la covariabilidad espacial entre los campos de precipitación y viento, se realiza un análisis EOF combinado (MEOF). Dado que estas variables poseen unidades físicas y rangos de varianza dispares (mm/h vs. m/s), es un requisito metodológico fundamental estandarizar las series antes de su integración para evitar que la variable con mayor magnitud numérica domine los modos resultantes \citep{wilks2019statistical}. El procedimiento consiste en: (i) calcular las anomalías de cada campo respecto a su media; (ii) normalizar dichas anomalías dividiéndolas por la desviación estándar espacialmente promediada de cada variable, asegurando un peso equiparable en la matriz de covarianza combinada; y (iii) concatenar espacialmente los campos normalizados para formar un vector de estado ampliado, siguiendo el esquema de análisis de patrones acoplados descrito por \citet{bretherton1992intercomparison}. El análisis EOF aplicado a esta matriz combinada permite obtener modos acoplados que expliquen la varianza conjunta, siguiendo la base matemática de descomposición multivariada validada por \citet{liang2018multivariate}. La aplicación de esta técnica es instrumental para responder a interrogantes físicas recientes planteadas por \citet{sinclair2023relationship}, permitiendo revelar si los núcleos de precipitación intensa se co-ubican sistemáticamente con los gradientes de viento más fuertes y cómo esta coherencia estructural evoluciona a lo largo del ciclo de vida.
