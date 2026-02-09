@@ -5,32 +5,32 @@
 \contentsline {subsection}{\numberline {1.1.2}Objetivos Específicos}{7}{subsection.1.1.2}%
 \contentsline {chapter}{\numberline {2}Marco Teórico}{9}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Dinámica de ciclones extratropicales}{9}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Definición y dinámica en el Atlántico Sur}{9}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Vorticidad relativa como variable de estado}{9}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.1}Dinámica en el Atlántico Sur}{9}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Vorticidad relativa}{9}{subsection.2.1.2}%
 \contentsline {section}{\numberline {2.2}Evolución estructural y ciclo de vida}{10}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Modelos conceptuales: Asimetría y Fractura Frontal}{10}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Fases dinámicas del ciclo de vida}{10}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Regiones de ciclogénesis y entornos dinámicos}{11}{section.2.3}%
+\contentsline {subsection}{\numberline {2.2.1}Asimetría y Fractura Frontal}{10}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Fases del ciclo de vida}{10}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Regiones de ciclogénesis}{11}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Región Sur-Sudeste de Brasil (SBR)}{11}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}La Plata y Uruguay (LPB)}{11}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Patagonia y Argentina Austral (ARG)}{12}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}Caracterización de estructuras espaciales en eventos compuestos}{12}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}De la visión univariada a los eventos compuestos}{12}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.3.3}Patagonia y Argentina (ARG)}{12}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Estructuras espaciales}{12}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Eventos compuestos}{12}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Descomposición modal y acoplamiento (EOF/MEOF)}{13}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Asimetría estructural y Estimación de Densidad (KDE)}{13}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.3}Estimación de Densidad (KDE)}{13}{subsection.2.4.3}%
 \contentsline {chapter}{\numberline {3}Metodología}{15}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Diseño general del estudio}{15}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Diseño general}{15}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Datos del Reanálisis ERA5}{15}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Variables meteorológicas}{16}{subsection.3.2.1}%
 \contentsline {section}{\numberline {3.3}Base de datos de ciclones}{16}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Trayectorias y detección}{16}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.1}Trayectorias}{16}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Fases del ciclo de vida}{17}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Selección de ciclos de vida canónicos}{17}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.3}Selección de ciclones}{17}{subsection.3.3.3}%
 \contentsline {section}{\numberline {3.4}Procesamiento}{18}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Estratificación por regiones de ciclogénesis}{18}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Técnicas estadísticas de caracterización}{19}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Extracción de máximos y análisis de histogramas}{19}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Estimación de densidad de kernel (KDE) de máximos}{19}{subsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.6.3}Análisis de funciones ortogonales empíricas (EOF) univariado}{20}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.1}Máximos y análisis de histogramas}{19}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Estimación de densidad de kernel (KDE)}{19}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Funciones ortogonales empíricas (EOF) univariado}{20}{subsection.3.6.3}%
 \contentsline {subsection}{\numberline {3.6.4}EOF combinado (multivariado) precipitación--viento}{20}{subsection.3.6.4}%
-\contentsline {section}{\numberline {3.7}Análisis de sensibilidad: subconjunto de ciclones intensos}{21}{section.3.7}%
+\contentsline {section}{\numberline {3.7}Análisis del subconjunto de ciclones intensos}{21}{section.3.7}%
